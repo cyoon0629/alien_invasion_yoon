@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="631558ee-f671-4a49-9ca9-a3f7d3da1205" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ship.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bullet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupyter submissions/blue_sky.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupyter submissions/game character/game character.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupyter submissions/game character/ghost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupyter submissions/keys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupyter submissions/rocket/rocket move.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupyter submissions/rocket/rocket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupyter submissions/sideways shooter/sbullet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupyter submissions/sideways shooter/sideways shooter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupyter submissions/sideways shooter/sship.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alien Invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Alien Invasion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alien Invasion Part 1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alien Invasion Part 2.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alien Invasion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ship.py" beforeDir="false" afterPath="$PROJECT_DIR$/ship.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +50,15 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/m256996/Documents/EW200/Labs/alien_invasion&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\m256996\Documents\EW200\Labs\alien_invasion\jupyter submissions\sideways shooter" />
+      <recent name="C:\Users\m256996\Documents\EW200\Labs\alien_invasion\jupyter submissions" />
+      <recent name="C:\Users\m256996\Documents\EW200\Labs\alien_invasion\jupyter submissions\rocket" />
+      <recent name="C:\Users\m256996\Documents\EW200\Labs\alien_invasion\jupyter submissions\game character" />
+      <recent name="C:\Users\m256996\Documents\EW200\Labs\alien_invasion" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,5 +80,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/jupyter submissions/sideways shooter/sideways shooter.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
