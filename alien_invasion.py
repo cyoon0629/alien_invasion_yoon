@@ -20,7 +20,6 @@ class AlienInvasion:
         pygame.display.set_caption("Alien Invasion")
 
         self.stats = GameStats(self)
-
         self.ship = Ship(self)
         #create group of bullets and aliens that will have their positions updated
         self.bullets = pygame.sprite.Group()
@@ -78,7 +77,6 @@ class AlienInvasion:
         for bullet in self.bullets.copy():
             if bullet.rect.bottom <= 0:
                 self.bullets.remove(bullet)
-
         self._check_bullet_alien_collisions()
     def _check_bullet_alien_collisions(self):
         #check if bullet hit alien, if so, delete that bullet and alien

@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="631558ee-f671-4a49-9ca9-a3f7d3da1205" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/game_stats.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salien.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ghost.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ghost.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jupyter submissions/Alien Invasion Part 2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter submissions/Alien Invasion Part 2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jupyter submissions/sideways shooter/sbullet.py" beforeDir="false" afterPath="$PROJECT_DIR$/sbullet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jupyter submissions/sideways shooter/sideways shooter.py" beforeDir="false" afterPath="$PROJECT_DIR$/sideways shooter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jupyter submissions/sideways shooter/sship.py" beforeDir="false" afterPath="$PROJECT_DIR$/sship.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ship.py" beforeDir="false" afterPath="$PROJECT_DIR$/ship.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salien.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sbullet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sideways shooter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sship.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

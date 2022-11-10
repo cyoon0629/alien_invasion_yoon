@@ -1,7 +1,9 @@
 import sys
+from time import sleep
 import pygame
 
 from settings import Settings
+from game_stats import GameStats
 from sship import sShip
 from sbullet import sBullet
 from salien import sAlien
@@ -17,6 +19,7 @@ class SShooter:
 
         pygame.display.set_caption("Sideways Shooter")
 
+        self.stats = GameStats(self)
         self.sship = sShip(self)
         #create group of bullets that will have their positions updated
         self.sbullets = pygame.sprite.Group()
@@ -27,9 +30,10 @@ class SShooter:
     def run_game(self):
         while True:
             self._check_events()
-            self.sship.update()
-            self._update_bullets()
-            self._update_aliens()
+            if self.stats.game_active:
+                self.sship.update()
+                self._update_bullets()
+                self._update_aliens()
             self._update_screen()
 
     def _check_events(self):
@@ -119,6 +123,40 @@ class SShooter:
         #if fleet at edge, update positions of all aliens in the fleet
         self._check_fleet_edges()
         self.saliens.update()
+
+        if pygame.sprite.spritecollideany(self.sship, self.saliens):
+            self._ship_hit()
+
+        #look for aliens hitting left of screen
+        self._check_aliens_leftside()
+
+    def _ship_hit(self):
+        #respond to ship being hit by alien
+        #decrement ships left
+        if self.stats.ships_left > 0:
+            self.stats.ships_left -= 1
+
+            #get rid of remaining aliens and bullets
+            self.saliens.empty()
+            self.sbullets.empty()
+
+            #create new fleet and center ship
+            self._create_fleet()
+            self.sship.center_ship()
+
+            #pause
+            sleep(.5)
+        else:
+            self.stats.game_active = False
+    def _check_aliens_leftside(self):
+        #check if any aliens have reached bottom of screen
+        screen_rect = self.screen.get_rect()
+        for alien in self.saliens.sprites():
+            if alien.rect.left <= 0:
+                #treat this the same as if ship got hit
+                self._ship_hit()
+                break
+
     def _check_fleet_edges(self):
         #respond if alien reaches edge
         for salien in self.saliens.sprites():
