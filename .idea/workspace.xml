@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="631558ee-f671-4a49-9ca9-a3f7d3da1205" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/alien.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_stats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salien.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ghost.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ghost.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jupyter submissions/Alien Invasion Part 2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter submissions/Alien Invasion Part 2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jupyter submissions/sideways shooter/sbullet.py" beforeDir="false" afterPath="$PROJECT_DIR$/sbullet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jupyter submissions/sideways shooter/sideways shooter.py" beforeDir="false" afterPath="$PROJECT_DIR$/sideways shooter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jupyter submissions/sideways shooter/sship.py" beforeDir="false" afterPath="$PROJECT_DIR$/sship.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ship.py" beforeDir="false" afterPath="$PROJECT_DIR$/ship.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +47,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\m256996\Documents\EW200\Labs\alien_invasion" />
       <recent name="C:\Users\m256996\Documents\EW200\Labs\alien_invasion\jupyter submissions" />
       <recent name="C:\Users\m256996\Documents\EW200\Labs\alien_invasion\jupyter submissions\sideways shooter" />
       <recent name="C:\Users\m256996\Documents\EW200\Labs\alien_invasion\jupyter submissions\rocket" />
       <recent name="C:\Users\m256996\Documents\EW200\Labs\alien_invasion\jupyter submissions\game character" />
-      <recent name="C:\Users\m256996\Documents\EW200\Labs\alien_invasion" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -69,16 +75,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/jupyter submissions/sideways shooter/sideways shooter.py</url>
-          <line>64</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

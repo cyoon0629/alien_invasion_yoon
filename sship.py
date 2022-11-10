@@ -9,7 +9,7 @@ class sShip:
         self.settings = ai_game.settings
 
         #load image and get its rectangular parameters as if it were a rectangle
-        self.image = pygame.image.load('../../images/ship.png')
+        self.image = pygame.image.load('images/ship.png')
         self.rect = self.image.get_rect()
 
         #start each new image at bottom center
